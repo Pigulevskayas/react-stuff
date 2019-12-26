@@ -1,0 +1,38 @@
+.icon-bar {
+  background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {  
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #4CAF50; /* Add an active/current color */
+}
+
+/* VERTICAL BAR */
+.icon-bar.vertical {
+  width: 122px; /* Set a specific width */
+}
+
+.icon-bar.vertical a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+}
+
+/* HORIZONTAL BAR */
+.icon-bar, .icon-bar.horizontal {
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-bar a, .icon-bar.horizontal a {
+  float: left;
+}
